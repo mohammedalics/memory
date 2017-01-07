@@ -30,7 +30,7 @@ print <employee id>
 * Print employee details to the console
 * Perform basic validations
 
-## Eaxamples:
+## Eaxamples
  
 ```javascript
 add 1001‐Ali‐Java Programmer‐10000
@@ -74,3 +74,9 @@ Fouad : HR Officer
 Quit
 ```
 * output:The application will exit.
+
+
+## Docker run 
+```javascript
+docker run -it --rm --name my-maven-project -v <project_path>:/usr/src/mymaven -v <local_maven>:/root/.m2 -w /usr/src/mymaven maven:3.3-jdk-8 mvn exec:java
+```
